@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+    .botoes-jogo {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        height: auto;
+        width: 100%;
+    }
+    #btn-reiniciar,
+    #btn-desistir {
+        width: 40%;
+        padding:0;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .simple-keyboard {
+      
+        order:3;
+    }
+}
+@media screen and (max-width:1200px) {
+    #canvas {
+        width: 100%;
+    }
+}
+
+    
